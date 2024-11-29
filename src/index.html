@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Signika+Negative:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="output.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body class="font-Hanken-Grotesk">
+    <section
+      class="w-[375px] mx-auto mb-10 shadow-lg shadow-darkGrayBlueAlpha md:flex md:mt-6 md:w-[740px] md:h-[512px] md:rounded-3xl"
+    >
+      <!-- Parte Azul -->
+      <div
+        class="bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue h-[356px] pt-8 px-10 text-center rounded-b-3xl md:w-[370px] md:h-full md:rounded-3xl md:pt-12"
+      >
+        <h2 class="mb-6 text-lightLavender text-[18px] md:mb-10">
+          Your Result
+        </h2>
+
+        <div
+          class="bg-gradient-to-t from-lightSlateBlue to-lightRoyalBlue rounded-full h-[140px] w-[140px] mx-auto grid place-content-center mb-6 text-[18px] md:mb-10"
+        >
+          <p class="text-white text-4xl font-bold md:text-5xl">76</p>
+          <p class="text-lightLavender">of 100</p>
+        </div>
+
+        <p class="text-white text-[18px] md:text-3xl md:mb-6 md:font-bold">
+          Great
+        </p>
+
+        <p class="text-lightLavender">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <!-- Parte Blanca -->
+      <div class="p-8 h-[454px] md:w-[370px] md:py-14 md:px-10">
+        <h2 class="text-[18px] mb-6 font-bold md:text-2xl">Summary</h2>
+
+        <div class="bg-lightRedAlpha card md:px-4">
+          <p class="text-lightRed text">
+            <img src="assets/images/icon-reaction.svg" alt="" />
+            <span>Reaction</span>
+          </p>
+          <p class="font-bold">
+            80 <span class="text-darkGrayBlueAlpha">/ 100</span>
+          </p>
+        </div>
+
+        <div class="bg-orangeyYellowAlpha card md:px-4">
+          <p class="text-orangeyYellow text">
+            <img src="assets/images/icon-memory.svg" alt="" />
+            <span>Memory</span>
+          </p>
+          <p class="font-bold">
+            92 <span class="text-darkGrayBlueAlpha">/ 100</span>
+          </p>
+        </div>
+
+        <div class="bg-greenTealAlpha card md:px-4">
+          <p class="text-greenTeal text">
+            <img src="assets/images/icon-verbal.svg" alt="" />
+            <span>Verbal</span>
+          </p>
+          <p class="font-bold">
+            61 <span class="text-darkGrayBlueAlpha">/ 100</span>
+          </p>
+        </div>
+
+        <div class="bg-coaltBlueAlpha card md:px-4">
+          <p class="text-coaltBlue text">
+            <img src="assets/images/icon-visual.svg" alt="" />
+            <span>Visual</span>
+          </p>
+          <p class="font-bold">
+            72 <span class="text-darkGrayBlueAlpha">/ 100</span>
+          </p>
+        </div>
+
+        <button
+          class="bg-darkGrayBlue w-full rounded-full h-14 text-white hover:bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue text-[18px] md:mt-4"
+        >
+          Continue
+        </button>
+      </div>
+    </section>
+    <div class="text-center">
+      Challenge by
+      <a
+        class="text-violetBluet font-bold"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#" class="violetBluet font-bold">WelinCode</a>.
+    </div>
+  </body>
+</html>

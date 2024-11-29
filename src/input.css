@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .card{
+        @apply flex place-content-between p-3 rounded-lg mb-4 h-[54px] items-center
+    };
+
+    .text {
+        @apply flex gap-2
+    }
+
+}
